@@ -6,7 +6,7 @@
 
 body {
   font-family: "Varela Round", sans-serif;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .container {
@@ -14,20 +14,62 @@ body {
   margin: auto;
 }
 
-header .container {
-  height: 100%;
+.flex {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  height: 100%;
+}
+
+.green-btn {
+  padding: 15px 40px;
+  border: none;
+  font-size: 13px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #96e15f, #08daa2);
+  color: white;
+}
+
 header .contacts {
   background-color: #3D3D3D;
   height: 40px;
   color: white;
+}
+header .contacts .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 header .contacts span {
   padding-right: 10px;
 }
 header .navbar {
   height: 60px;
+  padding: 20px 0;
+}
+header .navbar .flex {
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar .logo-container {
+  height: 40px;
+}
+header .navbar .nav-links-ul {
+  display: flex;
+  color: #888888;
+}
+header .navbar .nav-links-ul li {
+  padding-right: 10px;
+}
+header .navbar .nav-cta .green-btn {
+  margin-right: 20px;
+}
+header .navbar .nav-cta span {
+  color: #00d9a6;
 }

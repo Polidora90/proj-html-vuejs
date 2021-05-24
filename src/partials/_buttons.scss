@@ -1,0 +1,13 @@
+@mixin btn {
+    padding: ($spacing - 5) ($spacing * 2);
+    border: none;
+    font-size: $fontSize;
+    border-radius: $borderRadiusNtn;
+}
+
+.green-btn {
+    @include btn;
+
+    background: $gradientGreen;
+    color: white;
+}

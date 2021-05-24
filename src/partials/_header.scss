@@ -1,15 +1,15 @@
 header {
-    .container {
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
     .contacts {
         background-color: $navbarDarkBackground;
         height: $spacing * 2;
         color: white;
+
+        .container {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
         span {
             padding-right: $spacing / 2;
@@ -18,5 +18,35 @@ header {
 
     .navbar {
         height: $spacing * 3;
+        padding: $spacing 0;
+
+        .flex {
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-container {
+            height: $spacing * 2;
+        }
+
+        .nav-links-ul {
+            display: flex;
+            color: $defaultTextColor;
+
+            li {
+                padding-right: $spacing / 2;
+
+            }
+        }
+
+        .nav-cta {
+            .green-btn {
+                margin-right: $spacing;
+            }
+
+            span {
+                color: $greenText;
+            }
+        }
     }
 }

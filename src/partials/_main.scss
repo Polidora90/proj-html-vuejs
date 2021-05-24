@@ -1,0 +1,17 @@
+// HERO SECTION
+.hero-section {
+    .col-5 {
+        span {
+            color: $greenText;
+            letter-spacing: 5px;
+        }
+
+        p {
+            color: $defaultTextColor;
+        }
+
+        h1 {
+            font-size: $titleFontSize;
+        }
+    }
+}

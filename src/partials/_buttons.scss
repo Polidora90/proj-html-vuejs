@@ -11,3 +11,10 @@
     background: $gradientGreen;
     color: white;
 }
+
+.dark-btn {
+    @include btn;
+
+    background: $gradientDark;
+    color: white;
+}

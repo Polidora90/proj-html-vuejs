@@ -1,1 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .contacts {
+  background-color: #3D3D3D;
+  height: 40px;
+  color: white;
+}
+header .contacts span {
+  padding-right: 10px;
+}
+header .navbar {
+  height: 60px;
+}

@@ -287,14 +287,16 @@ header .navbar .nav-cta span {
 }
 .section-3 .grid {
   flex-wrap: wrap;
+  margin: 0 -2;
 }
 .section-3 .grid .img-square {
   width: 23.5%;
-  background-color: yellowgreen;
-  padding: 5px;
+  margin: 0 2px;
 }
-.section-3 .grid .img-square:before {
-  content: "";
-  padding-bottom: 100%;
-  display: block;
+.section-3 .grid .img-square img {
+  width: 100%;
+  height: auto;
+}
+.section-3 .btn-container {
+  justify-content: center;
 }

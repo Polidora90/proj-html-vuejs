@@ -112,18 +112,21 @@
 
     .grid {
         flex-wrap: wrap;
+        margin: 0 -2;
 
         .img-square{
             width: 23.5%;
-            background-color: yellowgreen;
-            padding: $spacing/4;
+            margin: 0 2px;
 
-            &:before {
-                content: "";
-                padding-bottom: 100%;
-                display: block;
+            img {
+                width: 100%;
+                height: auto;
             }
         }
         
+    }
+
+    .btn-container {
+        justify-content: center;
     }
 }

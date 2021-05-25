@@ -157,8 +157,6 @@ img {
   overflow: hidden;
   border-radius: 18px;
   color: white;
-  justify-content: center;
-  align-items: center;
 }
 .img-green-panel .overlay {
   position: absolute;
@@ -168,9 +166,6 @@ img {
   left: 0;
   background: linear-gradient(to bottom, #96e15fb3, #08daa2b3);
   z-index: 2;
-}
-.img-green-panel .text {
-  z-index: 3;
 }
 
 header .contacts {
@@ -324,6 +319,8 @@ header .navbar .nav-cta span {
   width: 53%;
   bottom: 50px;
   height: 600px;
+  justify-content: center;
+  align-items: center;
 }
 .section-4 .container .img-green-panel .content {
   position: absolute;
@@ -331,6 +328,9 @@ header .navbar .nav-cta span {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.section-4 .container .img-green-panel .text {
+  z-index: 3;
 }
 .section-4 .container .white-panel {
   z-index: 3;

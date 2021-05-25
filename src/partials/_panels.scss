@@ -1,0 +1,8 @@
+.white-panel {
+    background-color: white;
+    padding: $spacing;
+    box-shadow: 0 0 25px $shadowsColor;
+    border-radius: $borderRadiusPanel;
+    flex-basis: 47%;
+    margin: $spacing/2;
+}

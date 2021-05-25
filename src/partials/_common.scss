@@ -35,18 +35,22 @@ img {
 }
 
 //da sistemare
-.green-big-line {
-    height: 4px;
-    width: 40px;
-    background: $gradientGreen;
-    display: inline-block;
+.green-line {
+    padding-bottom: $spacing;
+    .green-big-line {
+        height: 4px;
+        width: 40px;
+        background: $gradientGreen;
+        display: inline-block;
+    }
+    
+    .green-small-line {
+        height: 4px;
+        width: 7px;
+        background: $gradientGreen;
+        display: inline-block;
+        margin-right: 2px;
+    }
 }
 
-.green-small-line {
-    height: 4px;
-    width: 7px;
-    background: $gradientGreen;
-    display: inline-block;
-    margin-right: 2px;
-}
 

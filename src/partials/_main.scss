@@ -68,3 +68,32 @@
         }
     }
 }
+
+//SEZIONE 1
+.section-1 {
+    .text {
+        h2 {
+            color: $darkText;
+            font-size: $h2FontSize;
+            line-height: $h2LineHeight;
+            font-weight: $h2fontWeight;
+        }
+    
+        span {
+            color: $greenText;
+        }
+
+        button {
+            margin-top: $spacing;
+        }
+    }
+
+    .squares {
+        flex-wrap: wrap;
+
+        .img-container {
+            height: 50px;
+        }
+    }
+    
+}

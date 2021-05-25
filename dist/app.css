@@ -82,14 +82,16 @@ img {
   height: 100%;
 }
 
-.green-big-line {
+.green-line {
+  padding-bottom: 20px;
+}
+.green-line .green-big-line {
   height: 4px;
   width: 40px;
   background: linear-gradient(to right, #96e15f, #08daa2);
   display: inline-block;
 }
-
-.green-small-line {
+.green-line .green-small-line {
   height: 4px;
   width: 7px;
   background: linear-gradient(to right, #96e15f, #08daa2);
@@ -113,6 +115,15 @@ img {
   border-radius: 30px;
   background: linear-gradient(to right, #3d3d3d, #000000);
   color: white;
+}
+
+.white-panel {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 25px #bbbbbb;
+  border-radius: 9px;
+  flex-basis: 47%;
+  margin: 10px;
 }
 
 header .contacts {
@@ -207,4 +218,23 @@ header .navbar .nav-cta span {
 .hero-section .col-5 a {
   color: #393939;
   padding-right: 10px;
+}
+
+.section-1 .text h2 {
+  color: #393939;
+  font-size: 57px;
+  line-height: 63px;
+  font-weight: 100;
+}
+.section-1 .text span {
+  color: #00d9a6;
+}
+.section-1 .text button {
+  margin-top: 20px;
+}
+.section-1 .squares {
+  flex-wrap: wrap;
+}
+.section-1 .squares .img-container {
+  height: 50px;
 }

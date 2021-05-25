@@ -1,14 +1,31 @@
+//spaziatura
 $spacing: 20px;
-$borderRadiusNtn: 30px;
-$pLineHeight: 25px;
 
+//bottoni
+$borderRadiusNtn: 30px;
+
+//lineheight
+$pLineHeight: 25px;
+$h2LineHeight: 63px;
+
+//font sizes
 $fontSize: 13px;
 $titleFontSize: 60px;
+$h2FontSize: 57px;
 
+//font weight
+$h2fontWeight: 100;
+
+//colori background
 $navbarDarkBackground: #3D3D3D;
 $gradientGreen: linear-gradient(to right, #96e15f, #08daa2);
 $gradientDark: linear-gradient(to right, #3d3d3d, #000000);
+
+//colori testi
 $greenText: #00d9a6;
 $darkText: #393939;
-
 $defaultTextColor: #888888;
+
+//panels
+$shadowsColor: #bbbbbb;
+$borderRadiusPanel: 9px;

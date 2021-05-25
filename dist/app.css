@@ -70,6 +70,10 @@ section {
   padding: 60px 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style-type: none;
 }
@@ -150,13 +154,57 @@ header .navbar .nav-cta span {
   color: #00d9a6;
 }
 
-.hero-section .col-5 span {
+.hero-section {
+  background-image: url(/images/Group-35-2x.png?bc9ec1a00b4b07aff5f30a1de0aa6bdf);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  padding-top: 170px;
+}
+.hero-section .col-5 {
+  position: relative;
+}
+.hero-section .col-5 .hero-text span {
   color: #00d9a6;
   letter-spacing: 5px;
 }
-.hero-section .col-5 p {
+.hero-section .col-5 .hero-text p {
   color: #888888;
+  line-height: 25px;
 }
-.hero-section .col-5 h1 {
+.hero-section .col-5 .hero-text h1 {
   font-size: 60px;
+}
+.hero-section .col-5 .hero-text .green-line {
+  padding-bottom: 20px;
+}
+.hero-section .col-5 .dark-btn {
+  margin: 40px 0;
+}
+.hero-section .col-5 ul {
+  position: absolute;
+  bottom: 20px;
+}
+.hero-section .col-5 .hero-button {
+  position: relative;
+  left: 75%;
+}
+.hero-section .col-5 .hero-button .dark-btn {
+  width: 200px;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.hero-section .col-5 .hero-button .dark-btn span {
+  display: inline-block;
+}
+.hero-section .col-5 .hero-button .green-btn {
+  padding: 15px 20px;
+  position: absolute;
+  top: 0;
+  left: 74px;
+}
+.hero-section .col-5 a {
+  color: #393939;
+  padding-right: 10px;
 }

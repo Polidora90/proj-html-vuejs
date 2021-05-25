@@ -1,17 +1,70 @@
 // HERO SECTION
 .hero-section {
+    background-image: url(../../images/Group-35-2x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    padding-top: 170px;
+
     .col-5 {
-        span {
-            color: $greenText;
-            letter-spacing: 5px;
+        position: relative;
+
+        .hero-text {
+            span {
+                color: $greenText;
+                letter-spacing: 5px;
+            }
+    
+            p {
+                color: $defaultTextColor;
+                line-height: $pLineHeight;
+            }
+    
+            h1 {
+                font-size: $titleFontSize;
+            }
+    
+            .green-line {
+                padding-bottom: $spacing;
+            }
         }
 
-        p {
-            color: $defaultTextColor;
+        .dark-btn {
+            margin: ($spacing*2) 0;
         }
 
-        h1 {
-            font-size: $titleFontSize;
+        ul {
+            position: absolute;
+            bottom: $spacing;
+        }
+
+        .hero-button {
+            position: relative;
+            left: 75%;
+
+            .dark-btn {
+                width: 200px;
+                justify-content: space-between;
+                margin-bottom: 0;
+    
+                span {
+                    display: inline-block;
+                }
+            }
+
+            .green-btn {
+                padding: ($spacing - 5) ($spacing);
+                position: absolute;
+                top: 0;
+                left: 74px;
+                
+            }
+        }
+
+        a {
+            color: $darkText;
+            padding-right: $spacing / 2;
         }
     }
 }

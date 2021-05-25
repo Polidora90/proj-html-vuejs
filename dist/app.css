@@ -76,6 +76,9 @@ h2 {
   line-height: 63px;
   font-weight: 100;
 }
+h2 span {
+  color: #00d9a6;
+}
 
 p {
   color: #888888;
@@ -255,9 +258,6 @@ header .navbar .nav-cta span {
   padding-right: 10px;
 }
 
-.section-1 .text span {
-  color: #00d9a6;
-}
 .section-1 .text button {
   margin-top: 20px;
 }
@@ -274,13 +274,27 @@ header .navbar .nav-cta span {
 .section-2 {
   background-color: #f9f9f9;
 }
-.section-2 .text span {
-  color: #00d9a6;
-}
 .section-2 .text h2 {
   padding-right: 120px;
 }
 .section-2 .img {
   justify-content: space-around;
   position: relative;
+}
+
+.section-3 .green-line:last-of-type {
+  padding-top: 20px;
+}
+.section-3 .grid {
+  flex-wrap: wrap;
+}
+.section-3 .grid .img-square {
+  width: 23.5%;
+  background-color: yellowgreen;
+  padding: 5px;
+}
+.section-3 .grid .img-square:before {
+  content: "";
+  padding-bottom: 100%;
+  display: block;
 }

@@ -67,10 +67,6 @@
 //SEZIONE 1
 .section-1 {
     .text {
-        span {
-            color: $greenText;
-        }
-
         button {
             margin-top: $spacing;
         }
@@ -95,10 +91,6 @@
     background-color: $lightGreyBackground;
 
     .text {
-        span {
-            color: $greenText;
-        }
-
         h2 {
             padding-right: 120px;
         }
@@ -109,4 +101,29 @@
         position: relative;
     }
 
+}
+
+//SEZIONE 3 griglia di img
+.section-3 {
+
+    .green-line:last-of-type {
+        padding-top: $spacing;
+    }
+
+    .grid {
+        flex-wrap: wrap;
+
+        .img-square{
+            width: 23.5%;
+            background-color: yellowgreen;
+            padding: $spacing/4;
+
+            &:before {
+                content: "";
+                padding-bottom: 100%;
+                display: block;
+            }
+        }
+        
+    }
 }

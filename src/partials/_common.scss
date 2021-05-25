@@ -27,6 +27,10 @@ h2 {
     font-size: $h2FontSize;
     line-height: $h2LineHeight;
     font-weight: $h2fontWeight;
+
+    span {
+        color: $greenText;
+    }
 }
 
 p {

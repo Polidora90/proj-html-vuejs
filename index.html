@@ -46,9 +46,10 @@
                     <!-- poi usare v-for con vue! -->
                     <div>
                         <ul class="nav-links-ul">
-                            <li>PROVA</li>
-                            <li>PROVA</li>
-                            <li>PROVA</li>
+                            <li v-for="element in navbarLinks">
+                                <a :href="element.link"></a>
+                                {{element.text}}
+                            </li>
                         </ul>
                     </div>
 
@@ -406,5 +407,7 @@
 
         </footer>
     </div>
+
+    <script src="script/app.js"></script>
 </body>
 </html>

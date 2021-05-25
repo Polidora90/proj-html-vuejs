@@ -1,8 +1,43 @@
+@mixin panel {
+    box-shadow: 0 0 25px $shadowsColor;
+}
+
 .white-panel {
+    @include panel;
+
     background-color: white;
     padding: $spacing;
-    box-shadow: 0 0 25px $shadowsColor;
     border-radius: $borderRadiusPanel;
-    flex-basis: 47%;
     margin: $spacing/2;
+}
+
+.img-panel {
+    @include panel;
+
+    border-radius: $borderRadiusPanel;
+    height: 400px;
+    width: 60%;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.img-green-panel {
+    height: 400px;
+    width: 57%;
+    overflow: hidden;
+    position: absolute;
+    bottom: 50px;
+    left: -85px;
+    border-radius: $borderRadiusPanel*2;
+
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: $gradientGreenTrans;
+        z-index: 2;
+    }
 }

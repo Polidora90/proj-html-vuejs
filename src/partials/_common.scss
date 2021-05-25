@@ -19,7 +19,19 @@ body {
 }
 
 section {
-    padding: $spacing*3 0;
+    padding: $spacing*5 0;
+}
+
+h2 {
+    color: $darkText;
+    font-size: $h2FontSize;
+    line-height: $h2LineHeight;
+    font-weight: $h2fontWeight;
+}
+
+p {
+    color: $defaultTextColor;
+    line-height: $pLineHeight;
 }
 
 a {

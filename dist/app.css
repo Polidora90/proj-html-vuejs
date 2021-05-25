@@ -67,7 +67,19 @@ body {
 }
 
 section {
-  padding: 60px 0;
+  padding: 100px 0;
+}
+
+h2 {
+  color: #393939;
+  font-size: 57px;
+  line-height: 63px;
+  font-weight: 100;
+}
+
+p {
+  color: #888888;
+  line-height: 25px;
 }
 
 a {
@@ -118,12 +130,39 @@ img {
 }
 
 .white-panel {
+  box-shadow: 0 0 25px #bbbbbb;
   background-color: white;
   padding: 20px;
+  border-radius: 9px;
+  margin: 10px;
+}
+
+.img-panel {
   box-shadow: 0 0 25px #bbbbbb;
   border-radius: 9px;
-  flex-basis: 47%;
-  margin: 10px;
+  height: 400px;
+  width: 60%;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.img-green-panel {
+  height: 400px;
+  width: 57%;
+  overflow: hidden;
+  position: absolute;
+  bottom: 50px;
+  left: -85px;
+  border-radius: 18px;
+}
+.img-green-panel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(to bottom, #96e15fb3, #08daa2b3);
+  z-index: 2;
 }
 
 header .contacts {
@@ -180,10 +219,6 @@ header .navbar .nav-cta span {
   color: #00d9a6;
   letter-spacing: 5px;
 }
-.hero-section .col-5 .hero-text p {
-  color: #888888;
-  line-height: 25px;
-}
 .hero-section .col-5 .hero-text h1 {
   font-size: 60px;
 }
@@ -220,12 +255,6 @@ header .navbar .nav-cta span {
   padding-right: 10px;
 }
 
-.section-1 .text h2 {
-  color: #393939;
-  font-size: 57px;
-  line-height: 63px;
-  font-weight: 100;
-}
 .section-1 .text span {
   color: #00d9a6;
 }
@@ -237,4 +266,21 @@ header .navbar .nav-cta span {
 }
 .section-1 .squares .img-container {
   height: 50px;
+}
+.section-1 .squares .white-panel {
+  flex-basis: 47%;
+}
+
+.section-2 {
+  background-color: #f9f9f9;
+}
+.section-2 .text span {
+  color: #00d9a6;
+}
+.section-2 .text h2 {
+  padding-right: 120px;
+}
+.section-2 .img {
+  justify-content: space-around;
+  position: relative;
 }

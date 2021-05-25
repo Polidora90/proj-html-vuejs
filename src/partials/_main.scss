@@ -16,11 +16,6 @@
                 letter-spacing: 5px;
             }
     
-            p {
-                color: $defaultTextColor;
-                line-height: $pLineHeight;
-            }
-    
             h1 {
                 font-size: $titleFontSize;
             }
@@ -72,13 +67,6 @@
 //SEZIONE 1
 .section-1 {
     .text {
-        h2 {
-            color: $darkText;
-            font-size: $h2FontSize;
-            line-height: $h2LineHeight;
-            font-weight: $h2fontWeight;
-        }
-    
         span {
             color: $greenText;
         }
@@ -94,6 +82,31 @@
         .img-container {
             height: 50px;
         }
+
+        .white-panel {
+            flex-basis: 47%;
+        }
     }
     
+}
+
+//SEZIONE 2 LEARN MORE
+.section-2 {
+    background-color: $lightGreyBackground;
+
+    .text {
+        span {
+            color: $greenText;
+        }
+
+        h2 {
+            padding-right: 120px;
+        }
+    }
+
+    .img {
+        justify-content: space-around;
+        position: relative;
+    }
+
 }

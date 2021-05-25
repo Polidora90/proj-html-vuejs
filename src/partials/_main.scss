@@ -99,6 +99,14 @@
     .img {
         justify-content: space-around;
         position: relative;
+
+        .img-green-panel {
+            height: 400px;
+            width: 57%;
+            position: absolute;
+            bottom: 50px;
+            left: -85px;
+        }
     }
 
 }
@@ -128,5 +136,37 @@
 
     .btn-container {
         justify-content: center;
+    }
+}
+
+//SEZIONE 4 we love what we do
+.section-4 {
+    background-color: $lightGreyBackground;
+
+    .container {
+        position: relative;
+
+        .img-green-panel {
+            position: relative;
+            width: 53%;
+            bottom: 50px;
+            height: 600px;
+    
+            .content {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    
+        .white-panel {
+            z-index: 3;
+            width: 54%;
+            padding: $spacing*3;
+            position: absolute;
+            height: 102%;
+            right: 0;
+        }
     }
 }

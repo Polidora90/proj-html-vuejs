@@ -24,6 +24,9 @@
 .img-green-panel {
     overflow: hidden;
     border-radius: $borderRadiusPanel*2;
+    color: white;
+    justify-content: center;
+    align-items: center;
 
 
     .overlay {
@@ -34,5 +37,9 @@
         left: 0;
         background: $gradientGreenTrans;
         z-index: 2;
+    }
+
+    .text {
+        z-index: 3;
     }
 }

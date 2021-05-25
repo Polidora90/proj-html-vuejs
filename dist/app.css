@@ -66,6 +66,10 @@ body {
   display: flex;
 }
 
+.text-center {
+  text-align: center;
+}
+
 section {
   padding: 100px 0;
 }
@@ -152,6 +156,9 @@ img {
 .img-green-panel {
   overflow: hidden;
   border-radius: 18px;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 .img-green-panel .overlay {
   position: absolute;
@@ -161,6 +168,9 @@ img {
   left: 0;
   background: linear-gradient(to bottom, #96e15fb3, #08daa2b3);
   z-index: 2;
+}
+.img-green-panel .text {
+  z-index: 3;
 }
 
 header .contacts {

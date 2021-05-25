@@ -384,10 +384,28 @@ header .navbar .nav-cta span {
 .section-5 .container {
   flex-direction: column;
   align-items: center;
-  z-index: 3;
-  color: white;
+}
+.section-5 .container p {
+  color: #ffffff;
 }
 .section-5 .container .fas {
   color: #00d9a6;
   font-size: 55px;
+}
+.section-5 .container h3 {
+  color: #00d9a6;
+}
+.section-5 .container .img-container {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  overflow: hidden;
+}
+.section-5 .container .img-container img {
+  position: relative;
+  right: 8px;
+}
+.section-5 .container > * {
+  z-index: 3;
 }

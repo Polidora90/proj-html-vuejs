@@ -225,12 +225,35 @@
     .container {
         flex-direction: column;
         align-items: center;
-        z-index: 3;
-        color: white;
+        
+        p {
+            color: #ffffff;
+        };
 
         .fas {
             color: $greenText;
             font-size: 55px;
         }
+
+        h3 {
+            color: $greenText;
+        }
+
+        .img-container {
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            border: 1px solid #ffffff;
+            overflow: hidden;
+
+            img {
+                position: relative;
+                right: 8px;
+            }
+        }
+    }
+
+    .container > * {
+        z-index: 3;
     }
 }

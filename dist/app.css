@@ -164,8 +164,8 @@ img {
   bottom: 0;
   right: 0;
   left: 0;
-  background: linear-gradient(to bottom, #96e15fb3, #08daa2b3);
   z-index: 2;
+  background: linear-gradient(to bottom, #96e15fb3, #08daa2b3);
 }
 
 header .contacts {
@@ -366,4 +366,28 @@ header .navbar .nav-cta span {
 }
 .section-4bis .white-panel .green-banner {
   height: 10px;
+}
+
+.section-5 {
+  background-image: url(/images/four-businesspeople-in-a-boardroom-with-paperwork-PC4V8H4.jpg?b0ce59066323372939c88afd99958a42);
+  position: relative;
+}
+.section-5 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  background: linear-gradient(to left, #3d3d3de6, #000000e6);
+}
+.section-5 .container {
+  flex-direction: column;
+  align-items: center;
+  z-index: 3;
+  color: white;
+}
+.section-5 .container .fas {
+  color: #00d9a6;
+  font-size: 55px;
 }

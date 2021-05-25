@@ -212,3 +212,25 @@
         
     }
 }
+
+.section-5 {
+    background-image: url(../../images/four-businesspeople-in-a-boardroom-with-paperwork-PC4V8H4.jpg);
+    position: relative;
+
+    .overlay {
+        @include overlay;
+        background: $gradientdarkTrans;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        z-index: 3;
+        color: white;
+
+        .fas {
+            color: $greenText;
+            font-size: 55px;
+        }
+    }
+}

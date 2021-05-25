@@ -139,7 +139,7 @@
     }
 }
 
-//SEZIONE 4 we love what we do
+//SEZIONE 4 pannelli sovrapposti
 .section-4 {
     background-color: $lightGreyBackground;
 
@@ -174,5 +174,41 @@
             height: 102%;
             right: 0;
         }
+    }
+}
+
+//SEZIONE 4BIS
+.section-4bis {
+    background-color: $lightGreyBackground;
+
+    .white-panel {
+        padding: 0 0; 
+        overflow: hidden;
+
+        .dark-banner {
+            height: 10px;
+            background: $gradientDark;
+        }
+
+        .service,
+        .price {
+            padding: ($spacing/2) $spacing;
+        }
+
+        .dark-background {
+            background: $gradientDark;
+            color:white;
+        }
+
+        .green-banner,
+        .green-background {
+            background: $gradientGreen;
+        }
+
+        .green-banner {
+            height: 10px;
+        }
+
+        
     }
 }

@@ -340,3 +340,30 @@ header .navbar .nav-cta span {
   height: 102%;
   right: 0;
 }
+
+.section-4bis {
+  background-color: #f9f9f9;
+}
+.section-4bis .white-panel {
+  padding: 0 0;
+  overflow: hidden;
+}
+.section-4bis .white-panel .dark-banner {
+  height: 10px;
+  background: linear-gradient(to right, #3d3d3d, #000000);
+}
+.section-4bis .white-panel .service,
+.section-4bis .white-panel .price {
+  padding: 10px 20px;
+}
+.section-4bis .white-panel .dark-background {
+  background: linear-gradient(to right, #3d3d3d, #000000);
+  color: white;
+}
+.section-4bis .white-panel .green-banner,
+.section-4bis .white-panel .green-background {
+  background: linear-gradient(to right, #96e15f, #08daa2);
+}
+.section-4bis .white-panel .green-banner {
+  height: 10px;
+}

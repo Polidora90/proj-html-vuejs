@@ -107,6 +107,13 @@
             bottom: 50px;
             left: -85px;
         }
+
+        .img-panel {
+            height: 400px;
+            width: 60%;
+            overflow: hidden;
+            z-index: 3;
+        }
     }
 
 }
@@ -213,6 +220,7 @@
     }
 }
 
+//SEZIONE 5 OVERLAY DARK
 .section-5 {
     background-image: url(../../images/four-businesspeople-in-a-boardroom-with-paperwork-PC4V8H4.jpg);
     position: relative;
@@ -243,7 +251,7 @@
             height: 70px;
             width: 70px;
             border-radius: 50%;
-            border: 1px solid #ffffff;
+            border: 2px solid #ffffff;
             overflow: hidden;
 
             img {
@@ -255,5 +263,39 @@
 
     .container > * {
         z-index: 3;
+    }
+}
+
+//SEZIONE 6
+.section-6 {
+    
+    .columns {
+        margin: 0 -$spacing/2;
+
+        .col-4 {
+            position: relative;
+
+            .img-panel {
+                margin: $spacing/2;
+                height: 340px;
+    
+                .white-panel {
+                    width: 80%;
+                    position: absolute;
+                    bottom: 0px;
+                    left: 50%;
+                    transform: translate(-50%, +50%);
+                }
+    
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .btn-container {
+        justify-content: center;
+        padding-top: $spacing*4;
     }
 }

@@ -1,16 +1,3 @@
-@mixin panel {
-    box-shadow: 0 0 25px $shadowsColor;
-}
-
-@mixin overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: 2;
-}
-
 .white-panel {
     @include panel;
 
@@ -24,14 +11,9 @@
     @include panel;
 
     border-radius: $borderRadiusPanel;
-    height: 400px;
-    width: 60%;
-    overflow: hidden;
-    z-index: 3;
 }
 
 .img-green-panel {
-    overflow: hidden;
     border-radius: $borderRadiusPanel*2;
     color: white;
 

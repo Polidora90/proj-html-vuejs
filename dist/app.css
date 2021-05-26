@@ -335,19 +335,23 @@ header .navbar .nav-cta span {
 .section-2 .text h2 {
   padding-right: 120px;
 }
+.section-2 .text .green-btn {
+  margin: 20px 0;
+}
 .section-2 .img {
   justify-content: space-around;
   position: relative;
 }
 .section-2 .img .img-green-panel {
-  height: 400px;
+  height: 445px;
   width: 57%;
   position: absolute;
   bottom: 50px;
   left: -85px;
+  overflow: hidden;
 }
 .section-2 .img .img-panel {
-  height: 400px;
+  height: 440px;
   width: 60%;
   overflow: hidden;
   z-index: 3;

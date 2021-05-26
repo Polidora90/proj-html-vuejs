@@ -119,6 +119,10 @@
         h2 {
             padding-right: 120px;
         }
+
+        .green-btn {
+            margin: $spacing 0;
+        }
     }
 
     .img {
@@ -126,15 +130,16 @@
         position: relative;
 
         .img-green-panel {
-            height: 400px;
+            height: 445px;
             width: 57%;
             position: absolute;
             bottom: 50px;
             left: -85px;
+            overflow: hidden;
         }
 
         .img-panel {
-            height: 400px;
+            height: 440px;
             width: 60%;
             overflow: hidden;
             z-index: 3;

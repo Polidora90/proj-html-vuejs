@@ -175,10 +175,48 @@
         .img-square{
             width: 23.5%;
             margin: 0 2px;
+            position: relative;
 
             img {
                 width: 100%;
                 height: auto;
+            }
+
+            .square-hover {
+                transition: display 3s;
+
+                position:absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 95%;
+                height: 110%;
+                background: $gradientGreenTrans;
+                color: $white;
+                z-index: 3;
+                padding: $spacing;
+
+                flex-direction: column;
+                justify-content: flex-end;
+
+                display: none;
+
+                h3,
+                span {
+                    padding-bottom: $spacing/2;
+                }
+
+                h3 {
+                    font-size: $mainText;
+                }
+
+            }
+
+            &:hover {
+                .square-hover {
+
+                    display: flex;
+                }
             }
         }
 

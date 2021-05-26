@@ -96,6 +96,7 @@ img {
 button {
     &:hover {
         background: $gradientDarkLeft;
+        color: $white;
     }
 }
 
@@ -103,3 +104,6 @@ li:hover {
     color: $greenText;
 }
 
+.no-focus:focus {
+    outline: none;
+}

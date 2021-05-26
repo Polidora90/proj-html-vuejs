@@ -504,10 +504,30 @@
         padding: $spacing*4 0;
     }
 
-    input {
-        @include btn;
+    .input {
+        input {
+            @include btn;
+    
+            width: 350px;
+            background: $gradientDark;
+            color: $defaultTextColor;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
 
-        background: $gradientDark;
-        color: $defaultTextColor;
+        .dark-btn-input {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            background: $black;
+            position: relative;
+            right: 5px;
+            color: $defaultTextColor;
+
+            &:hover {
+                color: $lightGrayText;
+            }
+            
+        }
     }
+   
 }

@@ -17,7 +17,7 @@
 </head>
 <body>
     <div id="app">
-        <header>
+        <header id="header">
             <!-- l'unica parte con h statica -->
             <!-- contatti e link socials (sono uguali in footer) -->
             <div class="contacts">
@@ -524,7 +524,8 @@
                                 </div>
                                 
                                 <div class="input">
-                                    <input type="text" placeholder="Enter Your Email Address">
+                                    <input type="email" placeholder="Enter Your Email Address" v-model="customerMail" class="no-focus">
+                                    <button class="dark-btn dark-btn-input" @click="registerMail">SUBMIT</button>
                                 </div>
                             </div>
                             
@@ -654,13 +655,13 @@
         </footer>
 
         <div class="fixed-btn">
-            <div class="white-btn flex">
+            <button class="white-btn flex">
                 <i class="fas fa-arrow-up"></i>
-            </div>
+            </button>
 
-            <div class="blue-btn flex">
+            <button class="blue-btn flex">
                 <i class="far fa-comment"></i>
-            </div>
+            </button>
 
         </div>
     </div>

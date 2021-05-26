@@ -137,10 +137,15 @@ img {
 
 button:hover {
   background: linear-gradient(to left, #3d3d3d, #000000);
+  color: #ffffff;
 }
 
 li:hover {
   color: #00d9a6;
+}
+
+.no-focus:focus {
+  outline: none;
 }
 
 .green-btn {
@@ -655,13 +660,27 @@ header .navbar .nav-cta span {
   align-items: center;
   padding: 80px 0;
 }
-.section-6bis input {
+.section-6bis .input input {
   padding: 15px 40px;
   border: none;
   font-size: 13px;
   border-radius: 30px;
+  width: 350px;
   background: linear-gradient(to right, #3d3d3d, #000000);
   color: #888888;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.section-6bis .input .dark-btn-input {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background: #000000;
+  position: relative;
+  right: 5px;
+  color: #888888;
+}
+.section-6bis .input .dark-btn-input:hover {
+  color: #f9f9f9;
 }
 
 footer .row {

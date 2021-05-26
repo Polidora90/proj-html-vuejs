@@ -187,6 +187,7 @@
 //SEZIONE 4 pannelli sovrapposti
 .section-4 {
     background-color: $lightGreyBackground;
+    padding-top: $spacing*10;
 
     .container {
         position: relative;
@@ -208,16 +209,45 @@
 
             .text {
                 z-index: 3;
+
+                .big-text {
+                    font-size: 100px;
+                }
+
+                .result-container {
+                    padding: 0 $spacing*2;
+                    margin-top: $spacing*2;
+
+
+                    &:first-of-type {
+                        border-right: 1px solid $white;
+                    }
+                    
+                    .results {
+                        font-size: 40px;
+                    }
+                }
+
             }
         }
     
         .white-panel {
             z-index: 3;
             width: 54%;
-            padding: $spacing*3;
+            padding: $spacing*4;
             position: absolute;
             height: 102%;
             right: 0;
+
+            h2 {
+                padding-right: $spacing*6;
+            }
+
+            .pointed-list {
+                i {
+                    color: $greenText;
+                }
+            }
         }
     }
 }
@@ -226,8 +256,17 @@
 .section-4bis {
     background-color: $lightGreyBackground;
 
+    .col-3 {
+        &:first-of-type {
+            padding-right: $spacing;
+            padding-top: $spacing*4;
+            padding-bottom: $spacing*2;
+        }
+    }
+
     .white-panel {
         padding: 0 0; 
+        height: 100%;
         overflow: hidden;
 
         .dark-banner {
@@ -237,21 +276,36 @@
 
         .service,
         .price {
-            padding: ($spacing/2) $spacing;
+            padding: $spacing;
         }
 
         .dark-background {
             background: $gradientDark;
-            color:white;
+            color: $white;
         }
 
         .green-banner,
         .green-background {
             background: $gradientGreen;
+            color: $white;
         }
 
         .green-banner {
             height: 10px;
+        }
+
+        .service {
+            span {
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+
+        .price {
+            span {
+                font-size: 40px;
+                font-weight: lighter;
+            }
         }
 
         

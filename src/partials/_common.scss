@@ -78,4 +78,18 @@ img {
     transform: rotate(270deg);
 }
 
+.pointed-list {
+    color: $defaultTextColor;
+    padding-top: $spacing*2;
+
+    li {
+        padding-top: $spacing;
+        
+        i {
+            padding-right: $spacing/2;
+        }
+    }
+
+}
+
 

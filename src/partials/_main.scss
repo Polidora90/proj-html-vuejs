@@ -1,5 +1,6 @@
 // HERO SECTION
 .hero-section {
+    background-color: $lightGreyBackground;
     background-image: url(../../images/Group-35-2x.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -21,12 +22,12 @@
             }
     
             .green-line {
-                padding-bottom: $spacing;
+                padding: ($spacing*2) 0;
             }
         }
 
         .dark-btn {
-            margin: ($spacing*2) 0;
+            margin: ($spacing*2 + 5) 0;
         }
 
         ul {
@@ -36,7 +37,7 @@
 
         .hero-button {
             position: relative;
-            left: 75%;
+            left: 80%;
 
             .dark-btn {
                 width: 200px;
@@ -66,23 +67,47 @@
 
 //SEZIONE 1
 .section-1 {
-    .text {
-        button {
-            margin-top: $spacing;
+
+    .container {
+        position: relative;
+
+        .vertical-textline {
+            right: -172px;
+            top: 50%;
+        }
+
+        .text {
+
+            h2 {
+                padding-top: $spacing*3;
+            }
+    
+            button {
+                margin-top: $spacing;
+            }
+        }
+    
+        .squares {
+            flex-wrap: wrap;
+    
+            i {
+                color: $greenText;
+                font-size: 45px;
+            }
+    
+            h3,
+            i,
+            p {
+                padding: ($spacing/2) 0;
+    
+            }
+    
+            .white-panel {
+                flex-basis: 47%;
+            }
         }
     }
 
-    .squares {
-        flex-wrap: wrap;
-
-        .img-container {
-            height: 50px;
-        }
-
-        .white-panel {
-            flex-basis: 47%;
-        }
-    }
     
 }
 

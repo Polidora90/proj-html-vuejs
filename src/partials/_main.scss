@@ -376,6 +376,10 @@
 
 //SEZIONE 6
 .section-6 {
+
+    h2 {
+        padding: $spacing 0;
+    }
     
     .columns {
         margin: 0 -$spacing/2;
@@ -393,6 +397,16 @@
                     bottom: 0px;
                     left: 50%;
                     transform: translate(-50%, +50%);
+
+                    i {
+                        color:$greenText;
+                        font-size: 6px;
+                        vertical-align: middle;
+                    }
+
+                    h4 {
+                        font-size: $mainText;
+                    }
                 }
     
                 img {
@@ -404,16 +418,32 @@
 
     .btn-container {
         justify-content: center;
-        padding-top: $spacing*4;
+        padding-top: ($spacing*4)*2;
     }
 }
 
 //SEZIONE 6 bis
 .section-6bis {
+
     .dark-panel,
     .green-panel {
         height: 350px;
         margin: $spacing/2;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+
+        h4 {
+            color: $white;
+            font-size: $mainText*2;
+            font-weight: lighter;
+        }
+
+        p {
+            color: $lightGrayText;
+        }
+
     }
 
     .row-p {

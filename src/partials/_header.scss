@@ -2,7 +2,7 @@ header {
     .contacts {
         background-color: $navbarDarkBackground;
         height: $spacing * 2;
-        color: white;
+        color: $white;
 
         .container {
             height: 100%;
@@ -13,6 +13,12 @@ header {
 
         span {
             padding-right: $spacing / 2;
+        }
+
+        .socials {
+            i:hover {
+                color:$greenText;
+            }
         }
     }
 

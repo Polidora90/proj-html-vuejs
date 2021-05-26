@@ -1,5 +1,48 @@
 //FOOTER
 footer {
+
+    .row {
+        padding: $spacing*3 0;
+    }
+
+    .logo-container {
+        height: $spacing*2;
+        margin-bottom: $spacing;
+    }
+
+    .links,
+    .col-3 {
+        padding: $spacing;
+
+        .list,
+        span,
+        a {
+        color: $defaultTextColor;
+        }
+
+        .list {
+            justify-content: center;
+
+            li {
+                padding-top: $spacing/2;
+            }
+        }
+    
+    }
+
+    .contacts {
+        span {
+            display: block;
+            padding-top: $spacing + 5;
+        }
+    }
+
+    .img-container {
+        height: 160px;;
+    }
+
+    
+
     .footer-links {
         background-color: $navbarDarkBackground;
         height: $spacing * 4;
@@ -10,10 +53,18 @@ footer {
             display: flex;
             justify-content: space-between;
             align-items: center;
+
+            
         }
 
         span {
             padding-right: $spacing / 2;
+        }
+
+        .socials {
+            i:hover {
+                color:$greenText;
+            }
         }
     }
 }

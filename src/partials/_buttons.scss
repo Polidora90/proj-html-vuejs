@@ -2,14 +2,18 @@
     @include btn;
 
     background: $gradientGreen;
-    color: white;
+    color: $white;
 }
 
 .dark-btn {
     @include btn;
 
     background: $gradientDark;
-    color: white;
+    color: $white;
+}
+
+.hover-btn {
+    background: $gradientDarkLeft;
 }
 
 
@@ -40,6 +44,7 @@
         background-color: #ffffff;
         bottom: $spacing + 10;
         right: $spacing + 70;
+        border: 1px solid #dedede;
 
     }
 

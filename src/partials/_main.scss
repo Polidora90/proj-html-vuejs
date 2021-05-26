@@ -299,3 +299,28 @@
         padding-top: $spacing*4;
     }
 }
+
+//SEZIONE 6 bis
+.section-6bis {
+    .dark-panel,
+    .green-panel {
+        height: 350px;
+        margin: $spacing/2;
+    }
+
+    .row-p {
+        margin: 0 -$spacing/2;
+    }
+
+    .row-l {
+        align-items: center;
+        padding-top: $spacing*2;
+    }
+
+    input {
+        @include btn;
+
+        background: $gradientDark;
+        color: $defaultTextColor;
+    }
+}

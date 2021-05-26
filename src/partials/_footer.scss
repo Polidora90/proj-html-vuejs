@@ -1,0 +1,19 @@
+//FOOTER
+footer {
+    .footer-links {
+        background-color: $navbarDarkBackground;
+        height: $spacing * 4;
+        color: $defaultTextColor;
+
+        .container {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        span {
+            padding-right: $spacing / 2;
+        }
+    }
+}

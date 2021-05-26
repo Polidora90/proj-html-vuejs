@@ -468,26 +468,54 @@
 
             <section class="section-6bis">
                 <div class="container">
-                    <div class="row flex">
+                    <div class="row-p flex">
                         <div class="col-6">
-                            <div class="dark-panel">
-
+                            <div class="dark-panel text-center">
+                                <p>Are you ready?</p>
+                                <h4>Start a New Project</h4>
+                                <input type="text" placeholder="Enter Your Email Address">
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="green-panel">
-
+                            <div class="green-panel text-center">
+                                <p>What are you waiting for?</p>
+                                <h4>Let's Talk About Work</h4>
+                                <button class="dark-btn">START NOW</button>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row flex">
-                        <div class="col-2"></div>
-                        <div class="col-2"></div>
-                        <div class="col-2"></div>
-                        <div class="col-2"></div>
-                        <div class="col-2"></div>
-                        <div class="col-2"></div>
+                    <div class="row-l flex">
+                        <div class="col-2">
+                            <div class="logo-container">
+                                <img src="images/client-1-2x.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="logo-container">
+                                <img src="images/client-9-2x.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="logo-container">
+                                <img src="images/client-7-2x.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="logo-container">
+                                <img src="images/client-3-2x.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="logo-container">
+                                <img src="images/client-4-2x.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="logo-container">
+                                <img src="images/client-5-2x.png" alt="logo">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -497,20 +525,85 @@
 
         <footer>
             <div class="container">
-                <div class="row">
-                    <div class="col-3"></div>
-                    <div class="col-3"></div>
-                    <div class="col-3"></div>
-                    <div class="col-3"></div>
+                <div class="row flex">
+                    <div class="col-3">
+                        <div class="logo-container">
+                            <img src="images/cropped-Group-39-2x.png" alt="logo">
+                        </div>
+                        <p>While the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees. While the lovely valley teems with vapour around me.</p>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="title-list">
+                            <h3>QUICk LINES</h3>
+                            <div class="green-line">
+                                <div class="green-small-line"></div>
+                                <div class="green-big-line"></div>
+                            </div>
+                        </div>
+
+                        <div class="list flex">
+                            <ul>
+                                <li v-for="element in footerLinks">
+                                    <a :href="element.link"></a>
+                                    {{element.text}}
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <h3>CONTACT</h3>
+                        <div class="green-line">
+                            <div class="green-small-line"></div>
+                            <div class="green-big-line"></div>
+                        </div>
+                        <span>Patricia C.Amadee 4401 Waldeck Street <br> Grapevine Nashville, TX 76051</span>
+                        <span><a href="#">info@yourdomain.com</a></span>
+                        <span>+99 (0) 101 0000 888</span>
+                    </div>
+
+                    <div class="col-3">
+                        <h3>LOCATION ON MAP</h3>
+                        <div class="green-line">
+                            <div class="green-small-line"></div>
+                            <div class="green-big-line"></div>
+                        </div>
+                        <div class="img-container">
+                            <img src="images/map.png" alt="map">
+                        </div>
+
+                    </div>
                 </div>
+            </div>
+             <!-- schema come banner in alto -->
+            <div class="footer-links">
+                <div class="container">
+                    <div>
+                        <span><i class="far fa-copyright"></i></span>
+                        <span>2020 PHLOX BUSINESS THEME</span>
+                    </div>
 
-                <!-- schema come banner in alto -->
-                <div class="footer-nav">
-
+                    <div class="socials">
+                        <span><i class="fab fa-facebook-f"></i></span>
+                        <span><i class="fab fa-twitter"></i></span>
+                        <span><i class="fab fa-pinterest-p"></i></span>
+                    </div>
                 </div>
             </div>
 
         </footer>
+
+        <div class="fixed-btn">
+            <div class="white-btn flex">
+                <i class="fas fa-arrow-up"></i>
+            </div>
+
+            <div class="blue-btn flex">
+                <i class="far fa-comment"></i>
+            </div>
+
+        </div>
     </div>
 
     <!-- ricorda bottoni a dx sempre visibili -->

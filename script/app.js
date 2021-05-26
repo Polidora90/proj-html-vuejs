@@ -26,6 +26,33 @@ new Vue({
                 text: "CONTACT",
                 link: "#" 
             }
+        ],
+
+        footerLinks: [
+            {
+                text: "Careers",
+                link: "#"
+            },
+            {
+                text: "News",
+                link: "#"
+            },
+            {
+                text: "Terms of Use",
+                link: "#"
+            },
+            {
+                text: "Privacy Projects",
+                link: "#"
+            },
+            {
+                text: "About",
+                link: "#"
+            },
+            {
+                text: "Contact",
+                link: "#"
+            }
         ]
     }
 });

@@ -136,18 +136,43 @@ img {
   color: white;
 }
 
+.fixed-btn .white-btn,
+.fixed-btn .blue-btn {
+  position: fixed;
+  z-index: 10;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.fixed-btn .blue-btn {
+  width: 50px;
+  height: 50px;
+  background-color: #527ceb;
+  color: #ffffff;
+  bottom: 20px;
+  right: 20px;
+}
+.fixed-btn .white-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  bottom: 30px;
+  right: 90px;
+}
+
 .white-panel {
   box-shadow: 0 0 25px #bbbbbb;
   overflow: hidden;
+  border-radius: 9px;
   background-color: white;
   padding: 20px;
-  border-radius: 9px;
   margin: 10px;
 }
 
 .img-panel {
   box-shadow: 0 0 25px #bbbbbb;
   overflow: hidden;
+  border-radius: 9px;
   border-radius: 9px;
 }
 
@@ -163,6 +188,20 @@ img {
   left: 0;
   z-index: 2;
   background: linear-gradient(to bottom, #96e15fb3, #08daa2b3);
+}
+
+.dark-panel {
+  box-shadow: 0 0 25px #bbbbbb;
+  overflow: hidden;
+  border-radius: 9px;
+  background: linear-gradient(to left, #3d3d3d, #000000);
+}
+
+.green-panel {
+  box-shadow: 0 0 25px #bbbbbb;
+  overflow: hidden;
+  border-radius: 9px;
+  background: linear-gradient(to right, #96e15f, #08daa2);
 }
 
 header .contacts {
@@ -436,4 +475,40 @@ header .navbar .nav-cta span {
 .section-6 .btn-container {
   justify-content: center;
   padding-top: 80px;
+}
+
+.section-6bis .dark-panel,
+.section-6bis .green-panel {
+  height: 350px;
+  margin: 10px;
+}
+.section-6bis .row-p {
+  margin: -10px;
+}
+.section-6bis .row-l {
+  align-items: center;
+  padding-top: 40px;
+}
+.section-6bis input {
+  padding: 15px 40px;
+  border: none;
+  font-size: 13px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #3d3d3d, #000000);
+  color: #888888;
+}
+
+footer .footer-links {
+  background-color: #3D3D3D;
+  height: 80px;
+  color: #888888;
+}
+footer .footer-links .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-links span {
+  padding-right: 10px;
 }

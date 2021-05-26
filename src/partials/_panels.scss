@@ -3,7 +3,6 @@
 
     background-color: white;
     padding: $spacing;
-    border-radius: $borderRadiusPanel;
     margin: $spacing/2;
 }
 
@@ -22,4 +21,16 @@
         background: $gradientGreenTrans;
     }
 
+}
+
+.dark-panel {
+    @include panel;
+
+    background: $gradientDarkLeft;
+}
+
+.green-panel {
+    @include panel;
+
+    background: $gradientGreen;
 }

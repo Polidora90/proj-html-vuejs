@@ -1,6 +1,7 @@
 @mixin panel {
     box-shadow: 0 0 25px $shadowsColor;
     overflow: hidden;
+    border-radius: $borderRadiusPanel;
 }
 
 @mixin overlay {

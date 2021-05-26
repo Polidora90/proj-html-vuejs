@@ -315,6 +315,8 @@
 //SEZIONE 5 OVERLAY DARK
 .section-5 {
     background-image: url(../../images/four-businesspeople-in-a-boardroom-with-paperwork-PC4V8H4.jpg);
+    background-size: cover;
+    background-position: center;
     position: relative;
 
     .overlay {
@@ -327,7 +329,12 @@
         align-items: center;
         
         p {
-            color: #ffffff;
+            color: $white;
+            font-style: italic;
+            padding: $spacing*2;
+            font-size: $mainText;
+            display: inline-block;
+            width: 60%;
         };
 
         .fas {
@@ -343,12 +350,21 @@
             height: 70px;
             width: 70px;
             border-radius: 50%;
-            border: 2px solid #ffffff;
+            border: 2px solid $white;
             overflow: hidden;
+            margin: $spacing 0;
 
             img {
                 position: relative;
                 right: 8px;
+            }
+        }
+
+        .author {
+            span {
+                color: $white;
+                padding: $spacing 0;
+                
             }
         }
     }

@@ -491,6 +491,8 @@ header .navbar .nav-cta span {
 
 .section-5 {
   background-image: url(/images/four-businesspeople-in-a-boardroom-with-paperwork-PC4V8H4.jpg?b0ce59066323372939c88afd99958a42);
+  background-size: cover;
+  background-position: center;
   position: relative;
 }
 .section-5 .overlay {
@@ -508,6 +510,11 @@ header .navbar .nav-cta span {
 }
 .section-5 .container p {
   color: #ffffff;
+  font-style: italic;
+  padding: 40px;
+  font-size: 18px;
+  display: inline-block;
+  width: 60%;
 }
 .section-5 .container .fas {
   color: #00d9a6;
@@ -522,10 +529,15 @@ header .navbar .nav-cta span {
   border-radius: 50%;
   border: 2px solid #ffffff;
   overflow: hidden;
+  margin: 20px 0;
 }
 .section-5 .container .img-container img {
   position: relative;
   right: 8px;
+}
+.section-5 .container .author span {
+  color: #ffffff;
+  padding: 20px 0;
 }
 .section-5 .container > * {
   z-index: 3;

@@ -151,13 +151,15 @@
 //SEZIONE 3 griglia di img
 .section-3 {
 
-    .green-line:last-of-type {
-        padding-top: $spacing;
+    .grid-p {
+        flex-direction: column;
+        justify-content: flex-end;
     }
 
     .grid {
         flex-wrap: wrap;
-        margin: 0 -2;
+        margin: ($spacing*2) 0 -2px;
+        position: relative;
 
         .img-square{
             width: 23.5%;
@@ -168,11 +170,17 @@
                 height: auto;
             }
         }
+
+        .vertical-textline {
+            right: -172px;
+            top: 50%;
+        }
         
     }
 
     .btn-container {
         justify-content: center;
+        padding: $spacing*4 0;
     }
 }
 

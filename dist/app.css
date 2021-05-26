@@ -357,12 +357,14 @@ header .navbar .nav-cta span {
   z-index: 3;
 }
 
-.section-3 .green-line:last-of-type {
-  padding-top: 20px;
+.section-3 .grid-p {
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .section-3 .grid {
   flex-wrap: wrap;
-  margin: 0 -2;
+  margin: 40px 0 -2px;
+  position: relative;
 }
 .section-3 .grid .img-square {
   width: 23.5%;
@@ -372,8 +374,13 @@ header .navbar .nav-cta span {
   width: 100%;
   height: auto;
 }
+.section-3 .grid .vertical-textline {
+  right: -172px;
+  top: 50%;
+}
 .section-3 .btn-container {
   justify-content: center;
+  padding: 80px 0;
 }
 
 .section-4 {

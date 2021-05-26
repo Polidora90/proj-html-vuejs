@@ -608,6 +608,10 @@ header .navbar .nav-cta span {
 .section-6 .columns .col-4 {
   position: relative;
 }
+.section-6 .columns .col-4 .vertical-textline {
+  left: -180px;
+  top: 50%;
+}
 .section-6 .columns .col-4 .img-panel {
   margin: 10px;
   height: 340px;

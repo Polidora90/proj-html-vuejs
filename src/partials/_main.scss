@@ -426,6 +426,7 @@
 //SEZIONE 6
 .section-6 {
 
+
     h2 {
         padding: $spacing 0;
     }
@@ -435,6 +436,11 @@
 
         .col-4 {
             position: relative;
+
+            .vertical-textline {
+                left: -180px;
+                top: 50%;
+            }
 
             .img-panel {
                 margin: $spacing/2;
